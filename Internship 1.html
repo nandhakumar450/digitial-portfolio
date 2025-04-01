@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Details</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #74ebd5, #acb6e5);
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            margin: 20px auto;
+            max-width: 500px;
+            padding: 20px;
+            animation: slideIn 2s ease-out;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 10px;
+            padding: 10px;
+            line-height: 1.5;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Mobile and Desktop Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            .card {
+                max-width: 90%;
+            }
+        }
+
+        @media (min-width: 769px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            .card {
+                max-width: 600px;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Internship Experience</h1>
+    <div class="card">
+        <p><strong>Company:</strong> Re Tech, Chennai</p>
+        <p><strong>Role:</strong> Web Development</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+        <p>During my internship, I developed responsive websites, gained hands-on experience, and worked on dynamic user interfaces to improve functionality and design.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Details</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #d5492b, #d5492b);
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            margin: 20px auto;
+            max-width: 500px;
+            padding: 20px;
+            animation: slideIn 2s ease-out;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 10px;
+            padding: 10px;
+            line-height: 1.5;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #d5492b;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #d5492b;
+        }
+
+        /* Mobile and Desktop Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            .card {
+                max-width: 90%;
+            }
+        }
+
+        @media (min-width: 769px) {
+            h1 {
+                font-size: 3em;
+            }
+
+            .card {
+                max-width: 600px;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Internship Experience</h1>
+    <div class="card">
+        <p><strong>Company:</strong> Agnirva</p>
+        <p><strong>Role:</strong> Agnirva Space Internship Program</p>
+        <p>The Agnirva Space Internship Program is a unique opportunity for space enthusiasts to gain foundational knowledge and insights into the space sector. Here are some key details:
+        <p><b>Duration:</b> Typically 8 weeks, with over 80 hours of learning.</p>
+        <p><b>Format:</b> Fully online and self-paced, allowing flexibility for participants.</p>
+        <p><b>Topics Covered:</b> Astronomy, cosmology, space policy, and emerging technologies like AI and machine learning in space.</p>
+        <p><b>Projects:</b> Participants collaborate on group projects, such as creating reports and presentations, which are part of the "Space Premier League."</p>
+        <p><b>Certification:</b> Upon completion, participants receive a digital certificate and badge to showcase their expertise.</p>
+        <p><b>Eligibility:</b> Open to students from diverse disciplines, including arts, commerce, science, and more.</p>
+    </div>
+</body>
+</html>
